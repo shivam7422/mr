@@ -20,9 +20,9 @@ class  mild extends Shyam
   val e= "Kadipur"
   println(" My hometown is " + e)
 }
-object Apps extends App{
+object Apps extends App {
 
- val e= new mild
+  val e = new mild
   e.details
   val f= new Ram
 }
