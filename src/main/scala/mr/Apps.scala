@@ -14,11 +14,15 @@ class Shyam extends Ram
     println(" My bank name is " +bank)
 
   }
-
+}
+class  mild extends Shyam
+{
+  val e= "Kadipur"
+  println(" My hometown is " + e)
 }
 object Apps extends App{
 
- val e= new Shyam
+ val e= new mild
   e.details
 
 
