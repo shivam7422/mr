@@ -5,20 +5,20 @@ class Ram
   val s= " shivam "
   println(" My name is " +s)
 }
-class Mohan extends Ram
+class Shyam extends Ram
 {
 
   def details: Unit =
   {
-    val es= " Shivam Tiwari"
-    println(" My full name is " +es)
+    val bank= " State bank of india"
+    println(" My bank name is " +bank)
 
   }
 
 }
 object Apps extends App{
 
- val e= new Mohan
+ val e= new Shyam
   e.details
 
 
