@@ -24,5 +24,5 @@ object Apps extends App {
 
   val e = new mild
   e.details
-  val f = new Ram
+  val f= new Ram
 }
